@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  height: 2000px;
+}
+p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.div-container {
+  background-color: powderblue;
+  /* min-height: 150px; */
+}
+
+.div-container div {
+  background-color: olive;
+  /* width: 100px;
+  height: 50px;
+  border: 3px solid plum;
+  padding: 10px;
+  margin: 10px; */
+}
+
+.span-container {
+  background-color: plum;
+  text-align: center;
+}
+
+.span-container span {
+  background-color: cyan;
+  margin: 10px;
+}
+
+.inline-blocks-container {
+  background-color: peachpuff;
+}
+
+.inline-block-el {
+  background-color: peru;
+  display: inline-block;
+  margin: 10px;
+}
+
+
+
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: pink;
+  position: relative;
+}
+
+.positioned {
+  /* width: 120px;
+  height: 50px; */
+  background-color: powderblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* transform: translate(-50%, -50%); */
+
+  /* left: 30px; */
+  /* left: 50px; */
+  /* bottom: -50px; */
+}
+
+.sticky {
+  position: sticky;
+  top: 100px;
+}
+
+
+.img {
+  width: 200px;
+  height: 200px;
+  shape-outside: circle(50%);
+  border-radius: 50%;
+  float: left;
+}
+
+.columns {
+  background-color: powderblue;
+  display: flow-root;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+.div-33 {
+  float: left;
+  width: 20.333333%;
+  margin: 10px;
+  background-color: rebeccapurple;
+}
+/* .div-50 {
+  float: left;
+  width: 50%;
+} */
